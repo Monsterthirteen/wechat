@@ -1,0 +1,26 @@
+/* pages/components/list_two/index.wxss */
+.list_two{
+  width: 96%;
+  padding: 4% 2%;
+  height: 200rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.list_images_two{
+  width: 100%;
+}
+.list_text_two{
+   width:100%;
+  margin-top: 16%;
+  display:flex;
+  justify-content: space-between;
+  color:#333;
+  font-size: 28rpx;
+}
+.list_two_right{
+  width: 62%;
+  padding: 0 4%;
+  float: right;
+}
+.list_title_two{
+  font-size: 30rpx;
+}

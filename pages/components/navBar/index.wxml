@@ -1,0 +1,10 @@
+<!-- navbar -->
+<view class='type-box'>
+  <block wx:for-items = '{{categories}}' wx:key='id'>
+    <view class='type-container'>
+      <view id="{{item.id}}" class="type-navbar-item {{activeCategoryId == item.id ? 'type-item-on' : ''}}" bindtap='tabClick' >
+        {{item.name}}
+      </view>
+    </view>
+  </block>
+</view>

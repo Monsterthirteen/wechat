@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "component-swiper":"../components/swiper/index",
+    "categories-list":"../components/navBar/index",
+    "message-list-one":"../components/list_one/index",
+    "message-list-two": "../components/list_two/index"
+  }
+}

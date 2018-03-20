@@ -1,0 +1,19 @@
+<!--pages/components/list_two/index.wxml-->
+<view wx:for='{{list_two}}' class='list_two'>
+  <view class='list_images_two'>
+    <image src='{{item.img}}' style='width:30%;height:200rpx;float:left;'></image>
+    <view class='list_two_right'>
+      <view class='list_title_two' style='text-align:left'>
+        {{item.title}}
+      </view>
+      <view class='list_text_two'>
+        <view>
+          评论：{{item.message}}条
+        </view>
+        <view>
+          {{item.time}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

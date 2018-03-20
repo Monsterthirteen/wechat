@@ -1,0 +1,17 @@
+<view wx:for='{{list_one}}' class='list_one'>
+  <view class='list_title_one' style='text-align:left'>
+    {{item.title}}
+  </view> 
+  <view class='list_images_one'>
+    <image wx:for='{{item.img}}' src='{{item}}' style='width:30%;height:140rpx;'></image>
+  </view>
+  <view class='list_text_one'>
+    <view>
+      评论：{{item.message}}条
+    </view>
+    <view>
+      {{item.time}}
+    </view>
+  </view>
+</view>
+<slot></slot>

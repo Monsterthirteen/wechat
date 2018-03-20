@@ -1,0 +1,27 @@
+<view style='width:100%;overflow:hidden;'>
+  <!-- 顶部Bar -->
+<view class='swiper-tab'>
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap='swichNav'>资讯</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap='swichNav'>论坛</view>
+</view>
+
+<swiper current='{{currentTab}}' class='swiper-box' duration='300' style='height:3400rpx' bindchange='bindChange'>
+  <swiper-item>
+    <view>
+      <component-swiper></component-swiper>
+      <categories-list></categories-list>
+      <message-list-two bindtap='toast'></message-list-two>
+      <message-list-one bindtap='toast'></message-list-one>
+      <message-list-one bindtap='toast'></message-list-one>
+      <message-list-two bindtap='toast'></message-list-two>
+    </view>
+  </swiper-item>
+  
+  <swiper-item>
+    <view>
+      this is for 论坛
+    </view> 
+  </swiper-item>
+
+</swiper>
+</view>

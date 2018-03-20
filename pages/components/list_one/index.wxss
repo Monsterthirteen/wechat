@@ -1,0 +1,29 @@
+.list_one {
+  width: 96%;
+  margin: 4% auto;
+  padding: 4% 0;
+  overflow: hidden;
+  border-bottom: 1rpx solid #ddd;
+}
+.list_title_one{
+  width: 100%;
+  white-space: nowrap;
+  font-size: 34rpx;
+  margin-bottom: 5%;
+}
+.list_images_one{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+.list_text_one{
+  width:94%;
+  margin-top: 2%;
+  padding:0 3%;
+  display:flex;
+  justify-content: space-between;
+  color:#333;
+  font-size: 28rpx;
+}
+

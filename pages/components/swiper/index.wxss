@@ -1,0 +1,7 @@
+/* components/component.wxss */
+
+/* Swiper轮播 */
+.slide-images{
+  width: 100%;
+  height: 30vh;
+}

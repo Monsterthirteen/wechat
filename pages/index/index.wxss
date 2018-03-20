@@ -1,0 +1,27 @@
+/* 顶部tab */
+.swiper-tab{  
+    width: 100%;  
+    border-bottom: 2rpx solid #777777;  
+    text-align: center;  
+    line-height: 80rpx;}  
+.swiper-tab-list{  
+    font-size: 30rpx;  
+    display: inline-block;  
+    width: 50%;  
+    color: #000;  
+}  
+.on{ 
+  color: #0066ff;  
+  border-bottom: 1rpx solid #0066ff;
+}  
+  
+.swiper-box{ 
+  display: block; 
+  height: 100%; 
+  width: 100%; 
+  overflow: hidden; 
+}  
+ .swiper-box view{  
+    text-align: center;  
+}   
+
