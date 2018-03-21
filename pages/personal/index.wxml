@@ -1,0 +1,26 @@
+<!--pages/personal/index.wxml-->
+<view style='100%;position:relative;'>
+  <view>
+    <image src='../images/background.png' style='width:100%;'></image>  
+  </view>
+  <view class='default_avatar'>
+    <image src='../images/default_avatar.png' style='width:160rpx;height:160rpx;'></image>
+  </view>
+</view>
+<view style='width:96%;margin: 0 auto'>
+  <view class='personal_list' bindtap='ToCollection'>
+    <image src='../images/collection.png' class='personal_icon'></image>
+    我的收藏
+    <image src='../images/right.png' class='personal_right'></image>
+  </view>
+  <view class='personal_list' bindtap='ToMessage'>
+    <image src='../images/message.png' class='personal_icon'></image>
+    我的消息
+    <image src='../images/right.png' class='personal_right'></image>
+  </view>
+  <view class='personal_list' bindtap='ToOrder'>
+    <image src='../images/order.png' class='personal_icon'></image>
+    我的订单
+    <image src='../images/right.png' class='personal_right'></image>
+  </view>
+</view>

@@ -8,7 +8,7 @@
 <swiper current='{{currentTab}}' class='swiper-box' duration='300' style='height:3400rpx' bindchange='bindChange'>
   <swiper-item>
     <view>
-      <component-swiper></component-swiper>
+      <component-swiper bindtap='toast'></component-swiper>
       <categories-list></categories-list>
       <message-list-two bindtap='toast'></message-list-two>
       <message-list-one bindtap='toast'></message-list-one>

@@ -2,7 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/details/index"
+    "pages/details/index",
+    "pages/personal/index",
+    "pages/collection/index",
+    "pages/message/index",
+    "pages/order/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,6 +30,12 @@
         "iconPath": "img/store.png",
         "pagePath": "pages/logs/logs",
         "text": "商城"
+      },
+      {
+        "selectedIconPath": "img/personal_c.png",
+        "iconPath": "img/personal.png",
+        "pagePath": "pages/personal/index",
+        "text": "我的"
       }
     ]
   }

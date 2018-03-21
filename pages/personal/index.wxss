@@ -1,0 +1,28 @@
+/* pages/personal/index.wxss */
+
+.default_avatar{
+  position: absolute;
+  top:30%;
+  left: 40%;
+}
+
+.personal_list{
+  font-size: 36rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #000;
+}
+.personal_icon{
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  object-fit: cover;
+  margin:3% 2%; 
+}
+.personal_right{
+  width: 50rpx;
+  height: 50rpx;
+  float:right;
+  object-fit: cover;
+  margin: 3% 0 0 2%;
+}
