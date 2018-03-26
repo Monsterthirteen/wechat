@@ -6,7 +6,9 @@
     "pages/personal/index",
     "pages/collection/index",
     "pages/message/index",
-    "pages/order/index"
+    "pages/order/index",
+    "pages/goods/index",
+    "pages/goodsDetails/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -28,7 +30,7 @@
       {
         "selectedIconPath": "img/store_c.png",
         "iconPath": "img/store.png",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/goods/index",
         "text": "商城"
       },
       {
