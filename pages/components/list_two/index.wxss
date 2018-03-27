@@ -10,11 +10,11 @@
 }
 .list_text_two{
    width:100%;
-  margin-top: 16%;
+  margin-top: 18%;
   display:flex;
   justify-content: space-between;
   color:#333;
-  font-size: 28rpx;
+  font-size: 26rpx;
 }
 .list_two_right{
   width: 62%;
@@ -22,5 +22,5 @@
   float: right;
 }
 .list_title_two{
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
