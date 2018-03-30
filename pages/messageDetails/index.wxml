@@ -1,0 +1,76 @@
+<!--pages/details/index.wxml-->
+<view style='width:94%;margin: 10rpx auto' wx:for='{{details}}'>
+  <view style='font-size:42rpx'>{{item.title}}</view>
+  <view style='width:100%;font-size:32rpx;margin-top:20rpx'>
+    <view style='float:left;color:#666;'>{{item.classify}}</view>
+    <view style='float:left;margin-left:18rpx;'>{{item.author}}</view>
+    <view style='float:right;color:#666;'>{{item.time}}</view>
+  </view>
+  <view wx:for='{{text}}' style='width:100%;overflow:hidden;margin:100rpx 0;font-size:36rpx;'>
+    <view>
+      {{item.paragraph_one}}
+    </view>
+    <view style='margin:16rpx 0;'>
+      <image wx:for='{{item.imgUrl}}' src='{{item}}' style='width:100%;height:360rpx;'></image>
+    </view>
+    <view>
+      {{item.paragraph_two}}
+    </view>
+  </view>
+</view>
+
+<!-- 华丽的分割线 -->
+<view class='segmentation'></view>
+
+<!-- 评论留言展示 -->
+<view class='comment'>
+  <view class='comment_head'>
+    <view>全部评论</view>
+    <view>最新</view>
+  </view>
+  <view style='margin-bottom:12%;'>
+    <view class='comment_details' wx:for='{{commentDetails}}'>
+      <view style='width:15%'>
+        <image src='{{item.avatarUrl}}' class='avatar'></image>
+      </view>
+      <view style='width:85%'>
+        <view class='commentUser'>
+          {{item.user}}
+        </view>
+        <view class='commentContent'>
+          {{item.content}}
+        </view>
+        <view class='commentOther'>
+          <view>
+            {{item.time}}
+          </view>
+          <view>
+            <view style='float:left;'>
+              <image src='../images/comment_message.png' style='width:34rpx;height:34rpx;margin-right:10rpx;'/>
+            </view>
+            <view style='float:right;'>
+              回复
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 评论 -->
+ <view class='leavingMessage'>
+  <form>
+    <input placeholder='发表评论...' placeholder-style='font-size:26rpx;color:#ddd;' class='messageInput'></input>
+    <button form-type='submit' class='messageButton'>确定</button>
+  </form>
+  <view class='messageFeatures'>
+    <view>
+      <image src='../images/collection.png' class='featuresImage'></image>
+    </view>
+    <view>
+      <image src='../images/share.png' class='featuresImage'></image>
+    </view>
+  </view>
+</view> 
+
