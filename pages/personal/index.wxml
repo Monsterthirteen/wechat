@@ -9,7 +9,7 @@
 </view>
 <view style='width:96%;margin: 0 auto'>
   <view class='personal_list' bindtap='ToCollection'>
-    <image src='../images/collection.png' class='personal_icon'></image>
+    <image src='../images/myCollection.png' class='personal_icon'></image>
     我的收藏
     <image src='../images/right.png' class='personal_right'></image>
   </view>

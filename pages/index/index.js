@@ -54,7 +54,7 @@ Page({
   },
   toast: function () {
     wx.navigateTo({
-      url: '../details/index',
+      url: '../messageDetails/index',
       fail: function () {
         console.log('404')
       }
