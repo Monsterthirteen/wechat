@@ -1,0 +1,7 @@
+<!--pages/reply/index.wxml-->
+<view>
+  <form>
+    <textarea placeholder='请输入回复' placeholder-style='font-size: 32rpx;' class='replyDetails'></textarea>
+    <button class='replyButton' form-type='submit'>回复</button>
+  </form>
+</view>

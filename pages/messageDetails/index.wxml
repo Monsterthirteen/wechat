@@ -28,7 +28,7 @@
     <view>全部评论</view>
     <view>最新</view>
   </view>
-  <view style='margin-bottom:12%;'>
+  <view style='margin-bottom:16%;'>
     <view class='comment_details' wx:for='{{commentDetails}}'>
       <view style='width:15%'>
         <image src='{{item.avatarUrl}}' class='avatar'></image>
@@ -44,7 +44,7 @@
           <view>
             {{item.time}}
           </view>
-          <view>
+          <view bindtap='toReply'>
             <view style='float:left;'>
               <image src='../images/comment_message.png' style='width:34rpx;height:34rpx;margin-right:10rpx;'/>
             </view>
@@ -65,8 +65,9 @@
     <button form-type='submit' class='messageButton'>确定</button>
   </form>
   <view class='messageFeatures'>
-    <view>
-      <image src='../images/collection.png' class='featuresImage'></image>
+    <view bindtap='chooseThis' wx:for='{{imgList}}'>
+      <image class='featuresImage' hidden='{{curIdx == true}}' src='{{item.url}}'></image>
+      <image class='featuresImage' hidden='{{curIdx != true}}' src='{{item.hoverUrl}}'></image>
     </view>
     <view>
       <image src='../images/share.png' class='featuresImage'></image>
