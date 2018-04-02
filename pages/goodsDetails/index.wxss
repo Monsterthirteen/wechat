@@ -1,1 +1,144 @@
 /* pages/goodsDetails/index.wxss */
+
+
+
+.goodsDetails{
+  width: 96%;
+  padding: 0 2%;
+}
+
+.goodsHead{
+  border-bottom: 1rpx solid #eee;
+}
+
+.goodsTitle{
+  margin-top: 15rpx;
+  font-size: 32rpx;
+  color: #000;
+}
+
+.goodsPrice{
+  font-size: 42rpx;
+  color:#ffd700;
+  margin: 20rpx 0;
+}
+
+.goodsNeck{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.goodsFreight{
+  font-size: 28rpx;
+  color: #999;
+}
+
+.goodsRemaining{
+  font-size: 28rpx;
+  color: #999;
+  margin-left: 3%
+}
+
+.businessActivities{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1rpx solid #eee;
+}
+
+.goodsActivity{
+  width: 75rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1rpx solid #ff0000;
+  border-radius: 10rpx;
+  color: #ff0000;
+  font-size: 30rpx;
+  margin:16rpx 3% 0 0;
+  text-align: center;
+  float: left;
+}
+
+.goodsShipping{
+  font-size: 32rpx;
+  color: #000;
+  float: left;
+}
+
+.goodsRight{
+  width: 50rpx;
+  height: 50rpx;
+  object-fit: cover;
+  float: right;
+  margin-top: 16rpx;
+}
+
+
+.chooseSpercification{
+  width: 100;
+}
+
+.goodsSpecification{
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #000;
+  height: 80rpx;
+  line-height: 80rpx;
+  float: left;
+  margin-right: 3%;
+}
+
+.detailsImg image{
+  width: 100%;
+}
+
+.goodsDetailsLabel{
+  background: #eee;
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  padding: 0 3%;
+  float: left;
+}
+
+.goodsFoot{
+  width:100%;
+  height: 110rpx;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  border-top: 1rpx solid #eee;
+  display: flex;
+  justify-content: flex-start;
+  background: #fff;
+}
+
+.footIcon{
+  width: 17.7%;
+  height: 110rpx;
+  border-right: 1rpx solid #eee;
+  padding-top:8rpx;
+}
+
+.footText{
+  font-size: 28rpx;
+}
+
+.footIcon image{
+  width: 55rpx;
+  height: 55rpx;
+  object-fit: cover;
+}
+
+.footButton{
+  width: 32%;
+  height: 110rpx;
+  line-height: 110rpx;
+  text-align: center;
+  color: #fff;
+}

@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    goodsTitle:'中川 002不过敏水溶性聚氨酯避孕套 篮球礼盒装',
+    goodsPrice:'72',
+    goodsRemaining:'999'
   },
 
   /**
