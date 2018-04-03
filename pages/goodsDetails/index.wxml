@@ -63,7 +63,7 @@
   <view class='goodsDetailsLabel'>
     商品详情
   </view>
-  <view>
+  <view class='goodsDetailsInstructions'>
     <view class='detailsImg'>
       <image src='../images/details01.jpg'></image>
     </view>
