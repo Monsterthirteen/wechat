@@ -1,7 +1,10 @@
 <!--pages/goods/index.wxml-->
+<!-- 轮播 -->
 <view>
   <component-swiper></component-swiper>
 </view> 
+
+<!-- 分类tab -->
 <view class="type-container">
   <scroll-view class="type-navbar" scroll-x="true">
     <view class="type-box" wx:for-items="{{categories}}" wx:key="id">
@@ -11,6 +14,8 @@
     </view>
   </scroll-view>
 </view>
+
+<!-- 商品列表 -->
 <view class="goods-container">
   <view class="goods-box" wx:for-items="{{goods}}" wx:key="{{index}}" bindtap="toDetailsTap" data-id="{{item.id}}">
     <view class="img-box">
